@@ -17,4 +17,4 @@ resource "azurerm_storage_container" "this" {
   container_access_type = "private"
 }
 
-# for new commit
+# for new commit -2
