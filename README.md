@@ -1,1 +1,1 @@
-infra live repo for deploying into Azure subscription.
+infra live repo for deploying into Azure subscription. 
