@@ -2,7 +2,7 @@ name: Terraform Dev Storage
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
     paths:
       - 'infra/envs/dev/**'
       - '.github/workflows/dev-storage.yml'
