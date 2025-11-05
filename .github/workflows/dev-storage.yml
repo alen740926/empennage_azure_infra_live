@@ -4,7 +4,7 @@ on:
   push:
     branches: [ master ]
     paths:
-      - 'infra/envs/dev/**'
+      - 'envs/dev/**'
       - '.github/workflows/dev-storage.yml'
   workflow_dispatch: {}
 
@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: infra/envs/dev
+        working-directory: envs/dev
 
     steps:
       - name: Checkout
