@@ -6,6 +6,7 @@ on:
     paths:
       - 'envs/dev/blob_1/**'
       - '.github/workflows/dev-storage.yml'
+      - 'modules/storage/**'
   workflow_dispatch: {}
 
 permissions:
